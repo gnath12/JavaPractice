@@ -16,6 +16,9 @@ public class TakeTrans{
 		studentTomas.showInfo();
 		subwayGreen.showInfo();
 		
-		Taxi tax10000 = new Taxi(10000);
+		Taxi taxi = new Taxi("ец╫ц");
+		studentEdward.takeTaxi(taxi);
+		studentEdward.showInfo();
+		taxi.showInfo();
 	}
 }

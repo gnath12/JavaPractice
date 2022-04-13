@@ -20,7 +20,12 @@ public class Student{
 		this.money -= 1500;
 	}
 	
+	public void takeTaxi(Taxi taxi) {
+		taxi.take(10000);
+		this.money -= 10000;
+	}
+	
 	public void showInfo(){
-		System.out.println(studentName + "ë‹˜ì˜ ë‚¨ì€ ëˆì€" + money + "ì…ë‹ˆë‹¤.");
+		System.out.println(studentName + "´ÔÀÇ ³²Àº µ·Àº" + money + "ÀÔ´Ï´Ù.");
 	}
 }
